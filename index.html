@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" />
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="jquery-1.11.2.min.js"></script>
+    <script src="jquery.easing.1.3.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="drawing-app">
+        <div class="ttable">
+            <div class="trow grow">
+                <div class="tcell relative-cell">
+                    <canvas class="drawing-canvas"></canvas>
+                    <div class="surface-overlay">
+
+                    </div>
+                </div>
+            </div>
+            <div class="trow">
+                <div class="tcell">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="trow">
+                <div class="tcell middle center">
+
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-default ">
+                            <input type="radio" name="options" id="Eraser" autocomplete="off" checked> Eraser
+                        </label>
+                        <label class="btn btn-default active">
+                            <input type="radio" name="options" id="Brush" autocomplete="off"> Brush
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="options" id="Crayon" autocomplete="off"> Crayon
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
